@@ -6,7 +6,7 @@
 /*   By: sbouheni <sbouheni@student.42mulhouse.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/01 19:29:35 by sbouheni          #+#    #+#             */
-/*   Updated: 2023/12/03 12:21:55 by sbouheni         ###   ########.fr       */
+/*   Updated: 2023/12/06 14:14:15 by sbouheni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,9 +20,9 @@ class ClapTrap
 {
 	private:
 		std::string name;
-		int hit_point = 10;
-		int energy_point = 10;
-		int attack_damage = 0;
+		int hit_point;
+		int energy_point;
+		int attack_damage;
 	public:
 		ClapTrap();
 		ClapTrap(std::string name);
