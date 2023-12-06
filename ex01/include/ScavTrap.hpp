@@ -6,14 +6,14 @@
 /*   By: sbouheni <sbouheni@student.42mulhouse.fr>  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 15:10:31 by sbouheni          #+#    #+#             */
-/*   Updated: 2023/12/06 05:29:51 by sbouheni         ###   ########.fr       */
+/*   Updated: 2023/12/06 05:51:46 by sbouheni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
-
 #ifndef SCAVTRAP_H
 # define SCAVTRAP_H
+
+#include "ClapTrap.hpp"
 
 class ScavTrap : public ClapTrap
 {
